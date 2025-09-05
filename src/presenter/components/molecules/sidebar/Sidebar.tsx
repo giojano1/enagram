@@ -5,7 +5,7 @@ import UserBar from "./UserBar";
 
 export default function Sidebar() {
   return (
-    <section className="w-[240px] h-full bg-[#132450]">
+    <section className="w-[240px] h-full bg-[#132450] max-800:hidden">
       <div className="flex justify-end px-6 text-[#ffffff58] py-3">
         <ChevronsLeft width={20} />
       </div>
