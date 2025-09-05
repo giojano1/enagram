@@ -9,7 +9,7 @@ export default function SidebarLayout() {
       <Header />
       <main className="h-dvh flex">
         <Sidebar />
-        <section className="w-full flex-1">
+        <section className="w-full flex-1 p-6 max-600:p-4">
           <Outlet />
         </section>
       </main>

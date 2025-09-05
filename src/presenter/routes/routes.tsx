@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "../views/Home";
-import SidebarLayout from "../components/molecules/layout/SidebarLayout";
+import SidebarLayout from "../components/organisms/layout/SidebarLayout";
 
 export default function AppRoutes() {
   return (
