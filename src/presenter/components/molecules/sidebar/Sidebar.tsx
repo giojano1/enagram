@@ -1,6 +1,7 @@
 import { ChevronsLeft } from "lucide-react";
 import React from "react";
 import Navbar from "./Navbar";
+import UserBar from "./UserBar";
 
 export default function Sidebar() {
   return (
@@ -14,8 +15,9 @@ export default function Sidebar() {
       </div>
 
       {/* navbar */}
-      <div>
+      <div className="flex flex-col justify-between   navbarHeight">
         <Navbar />
+        <UserBar />
       </div>
     </section>
   );

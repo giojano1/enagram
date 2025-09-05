@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@layer components {
+  .navbarHeight {
+    height: calc(100vh - 90px);
+  }
+}
