@@ -2,7 +2,7 @@
 
 @layer components {
   .navbarHeight {
-    height: calc(100vh - 90px);
+    height: calc(100vh - 95px);
   }
 }
 @custom-variant max-1400 (@media (max-width: 1400px));
